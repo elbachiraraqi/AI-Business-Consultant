@@ -77,9 +77,9 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center text-primary-foreground font-bold font-display text-lg">
-              A
+              T
             </div>
-            <span className="font-display font-bold text-xl tracking-tight">ALEXA<span className="text-primary">NOVA</span></span>
+            <span className="font-display font-bold text-xl tracking-tight">The Agile Ai <span className="text-primary">Company Inc.</span></span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#value" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Value</a>
@@ -373,7 +373,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Direct Access</p>
-                    <p>strategy@alexanova.consulting</p>
+                    <p>strategy@agileaicompany.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -502,12 +502,12 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-primary rounded-sm flex items-center justify-center text-primary-foreground font-bold font-display text-xs">
-                A
+                T
               </div>
-              <span className="font-display font-bold text-lg tracking-tight">ALEXA<span className="text-primary">NOVA</span></span>
+              <span className="font-display font-bold text-lg tracking-tight">The Agile Ai <span className="text-primary">Company Inc.</span></span>
             </div>
             <p className="text-sm text-muted-foreground text-center">
-              &copy; {new Date().getFullYear()} Alexanova Consulting. All rights reserved.
+              &copy; {new Date().getFullYear()} The Agile Ai Company Inc. All rights reserved.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-primary text-sm font-medium transition-colors">LinkedIn</a>
