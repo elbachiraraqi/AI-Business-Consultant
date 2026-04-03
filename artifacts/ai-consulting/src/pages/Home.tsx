@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { ArrowRight, Brain, Factory, Briefcase, HeartPulse, ShieldCheck, CheckCircle2, TrendingUp, BarChart3, Users, Mail } from "lucide-react";
+import { ArrowRight, Brain, Factory, Briefcase, HeartPulse, ShieldCheck, CheckCircle2, TrendingUp, BarChart3, Users } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useSubmitContact } from "@workspace/api-client-react";
 import { Button } from "@/components/ui/button";
@@ -367,15 +367,6 @@ export default function Home() {
               </p>
               
               <div className="space-y-6 text-muted-foreground">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center border border-border">
-                    <Mail className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium text-foreground">Direct Access</p>
-                    <p>strategy@agileaicompany.com</p>
-                  </div>
-                </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center border border-border">
                     <Briefcase className="h-5 w-5 text-primary" />
