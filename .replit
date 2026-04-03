@@ -29,3 +29,5 @@ timeoutMs = 20000
 
 [userenv.shared]
 CONTACT_EMAIL = "araqibachir@gmail.com"
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = "587"
