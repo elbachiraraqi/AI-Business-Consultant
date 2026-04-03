@@ -501,7 +501,6 @@ export default function Home() {
               &copy; {new Date().getFullYear()} The Agile Ai Company Inc. All rights reserved.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary text-sm font-medium transition-colors">LinkedIn</a>
               <a href="#" className="text-muted-foreground hover:text-primary text-sm font-medium transition-colors">Privacy Policy</a>
             </div>
           </div>
