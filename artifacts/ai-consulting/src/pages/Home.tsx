@@ -83,7 +83,7 @@ export default function Home() {
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#value" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Value</a>
-            <a href="#services" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Services</a>
+            <a href="#process" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Services</a>
             <a href="#sectors" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Sectors</a>
             <a href="#process" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Process</a>
           </nav>
@@ -319,7 +319,7 @@ export default function Home() {
       </section>
 
       {/* Services & Process */}
-      <section id="services" className="py-24 bg-secondary/20">
+      <section id="process" className="py-24 bg-secondary/20">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Comprehensive Engagement Model</h2>
