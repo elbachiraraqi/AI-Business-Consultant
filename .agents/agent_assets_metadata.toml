@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "ZXRN-OtODwLjAzIPK8G5b"
+uri = "file://artifacts/ai-consulting/public/images/hero-bg.png"
+type = "image"
+title = "Abstract AI corporate tech hero"
+
+[[generated]]
+id = "4ZdJrZTgyszU1jHa_1UzF"
+uri = "file://artifacts/ai-consulting/public/images/sector-healthcare.png"
+type = "image"
+title = "Healthcare AI concept"
+
+[[generated]]
+id = "BQJ_3jn7pUsIJqFlfI9DP"
+uri = "file://artifacts/ai-consulting/public/images/sector-finance.png"
+type = "image"
+title = "Finance AI concept"
+
+[[generated]]
+id = "lJG25txZeqPayemnPhaGV"
+uri = "file://artifacts/ai-consulting/public/images/sector-manufacturing.png"
+type = "image"
+title = "Manufacturing AI concept"
+
+[[generated]]
+id = "253-x874LVSzeLCm6KiDv"
+uri = "file://artifacts/ai-consulting/public/images/sector-industry.png"
+type = "image"
+title = "General industry AI concept"

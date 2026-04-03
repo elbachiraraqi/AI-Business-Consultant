@@ -14,3 +14,25 @@ import * as zod from "zod";
 export const HealthCheckResponse = zod.object({
   status: zod.string(),
 });
+
+/**
+ * Submits a contact form inquiry and sends an email notification
+ * @summary Submit contact form
+ */
+export const SubmitContactBody = zod.object({
+  name: zod.string().describe("Full name of the contact"),
+  email: zod.string().describe("Email address of the contact"),
+  phone: zod
+    .string()
+    .optional()
+    .describe("Phone number of the contact (optional)"),
+  industry: zod
+    .enum(["healthcare", "finance", "insurance", "manufacturing", "other"])
+    .describe("Industry sector of the client"),
+  message: zod.string().describe("The client's message or inquiry"),
+});
+
+export const SubmitContactResponse = zod.object({
+  success: zod.boolean(),
+  message: zod.string(),
+});

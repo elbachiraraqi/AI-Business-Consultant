@@ -8,3 +8,39 @@
 export interface HealthStatus {
   status: string;
 }
+
+/**
+ * Industry sector of the client
+ */
+export type ContactFormBodyIndustry =
+  (typeof ContactFormBodyIndustry)[keyof typeof ContactFormBodyIndustry];
+
+export const ContactFormBodyIndustry = {
+  healthcare: "healthcare",
+  finance: "finance",
+  insurance: "insurance",
+  manufacturing: "manufacturing",
+  other: "other",
+} as const;
+
+export interface ContactFormBody {
+  /** Full name of the contact */
+  name: string;
+  /** Email address of the contact */
+  email: string;
+  /** Phone number of the contact (optional) */
+  phone?: string;
+  /** Industry sector of the client */
+  industry: ContactFormBodyIndustry;
+  /** The client's message or inquiry */
+  message: string;
+}
+
+export interface ContactFormResponse {
+  success: boolean;
+  message: string;
+}
+
+export interface ErrorResponse {
+  error: string;
+}

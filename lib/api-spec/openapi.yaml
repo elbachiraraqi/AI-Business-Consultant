@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: contact
+    description: Contact form operations
 paths:
   /healthz:
     get:
@@ -24,6 +26,37 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /contact:
+    post:
+      operationId: submitContact
+      tags: [contact]
+      summary: Submit contact form
+      description: Submits a contact form inquiry and sends an email notification
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ContactFormBody"
+      responses:
+        "200":
+          description: Contact form submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ContactFormResponse"
+        "400":
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +66,49 @@ components:
           type: string
       required:
         - status
-
+    ContactFormBody:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Full name of the contact
+        email:
+          type: string
+          description: Email address of the contact
+        phone:
+          type: string
+          description: Phone number of the contact (optional)
+        industry:
+          type: string
+          description: Industry sector of the client
+          enum:
+            - healthcare
+            - finance
+            - insurance
+            - manufacturing
+            - other
+        message:
+          type: string
+          description: The client's message or inquiry
+      required:
+        - name
+        - email
+        - industry
+        - message
+    ContactFormResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+      required:
+        - success
+        - message
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error
