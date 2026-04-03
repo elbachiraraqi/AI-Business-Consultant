@@ -79,7 +79,7 @@ export default function Home() {
             <div className="w-8 h-8 bg-primary rounded-sm flex items-center justify-center text-primary-foreground font-bold font-display text-lg">
               T
             </div>
-            <span className="font-display font-bold text-xl tracking-tight">The Agile Ai <span className="text-primary">Company Inc.</span></span>
+            <span className="font-display font-bold text-xl tracking-tight leading-tight">The Agile Ai<br /><span className="text-primary">Company Inc.</span></span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#value" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Value</a>
@@ -504,7 +504,7 @@ export default function Home() {
               <div className="w-6 h-6 bg-primary rounded-sm flex items-center justify-center text-primary-foreground font-bold font-display text-xs">
                 T
               </div>
-              <span className="font-display font-bold text-lg tracking-tight">The Agile Ai <span className="text-primary">Company Inc.</span></span>
+              <span className="font-display font-bold text-lg tracking-tight leading-tight">The Agile Ai<br /><span className="text-primary">Company Inc.</span></span>
             </div>
             <p className="text-sm text-muted-foreground text-center">
               &copy; {new Date().getFullYear()} The Agile Ai Company Inc. All rights reserved.
