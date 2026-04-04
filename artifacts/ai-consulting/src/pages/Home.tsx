@@ -107,13 +107,13 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <div className="max-w-4xl">
             <Badge variant="outline" className="mb-6 border-primary/30 text-primary bg-primary/10 px-4 py-1.5 text-sm">
-              Strategic AI Consulting for SMBs
+              AI Consulting for Small & Mid-Size Businesses
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold font-display leading-[1.1] tracking-tight mb-8">
               Turn AI hype into <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">measurable business value.</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl leading-relaxed">
-              Expert guidance for Healthcare, Finance, Insurance, and Manufacturing leaders ready to operationalize artificial intelligence securely and profitably.
+              Specialized AI consulting for Healthcare, Finance, Insurance, and Manufacturing businesses ready to implement artificial intelligence securely, profitably, and without the complexity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" onClick={scrollToContact} className="text-base h-14 px-8 font-semibold">
@@ -147,12 +147,12 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold font-display mb-6">Why expert guidance matters now more than ever.</h2>
+              <h2 className="text-3xl md:text-4xl font-bold font-display mb-6">Why SMBs need a dedicated AI consultant — not just a tool.</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                The gap between companies using AI and those who aren't is widening every week. But throwing random AI tools at your team isn't a strategy—it's a security risk and a waste of capital.
+                The gap between businesses using AI strategically and those who aren't is widening every week. But adopting random AI tools without a clear strategy is a security risk and a waste of capital.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                As a senior consultant with deep technical roots and business acumen, I bridge the gap between complex machine learning models and your bottom line. No jargon, no science projects. Just pragmatic implementation that drives revenue, cuts costs, and empowers your workforce.
+                As an AI consultant specializing in small and mid-size businesses, I bridge the gap between complex machine learning models and your bottom line. No jargon, no science projects. Just pragmatic AI implementation that drives revenue, cuts costs, and empowers your workforce — whether you're in healthcare, finance, insurance, or manufacturing.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
@@ -220,9 +220,9 @@ export default function Home() {
       <section id="sectors" className="py-24 relative">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">Industry-Specific Transformation</h2>
+            <h2 className="text-3xl md:text-5xl font-bold font-display mb-6">AI Consulting Tailored to Your Industry</h2>
             <p className="text-lg text-muted-foreground">
-              AI isn't a one-size-fits-all solution. I design tailored architectures that respect the unique regulatory and operational realities of your specific sector.
+              Artificial intelligence is not a one-size-fits-all solution. Our AI consulting approach is designed around the unique regulatory, operational, and competitive realities of your specific sector.
             </p>
           </div>
 
