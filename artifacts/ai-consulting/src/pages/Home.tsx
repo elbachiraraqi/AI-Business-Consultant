@@ -69,6 +69,10 @@ export default function Home() {
     formRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToSectors = () => {
+    document.getElementById("sectors")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground overflow-x-hidden">
       
@@ -119,7 +123,7 @@ export default function Home() {
               <Button size="lg" onClick={scrollToContact} className="text-base h-14 px-8 font-semibold">
                 Start Your Transformation <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="text-base h-14 px-8 border-border hover:bg-secondary">
+              <Button size="lg" variant="outline" onClick={scrollToSectors} className="text-base h-14 px-8 border-border hover:bg-secondary">
                 Explore Industry Use Cases
               </Button>
             </div>
