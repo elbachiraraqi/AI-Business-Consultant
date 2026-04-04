@@ -372,8 +372,8 @@ export default function Home() {
                     <Briefcase className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium text-foreground">Typical Engagement</p>
-                    <p>Starting at $10k for comprehensive Discovery</p>
+                    <p className="font-medium text-foreground">Free 1-Hour Discovery Call</p>
+                    <p>We start by listening — understanding your business, your reality, and what you're truly trying to achieve.</p>
                   </div>
                 </div>
               </div>
